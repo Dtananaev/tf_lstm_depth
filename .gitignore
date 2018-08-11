@@ -1,0 +1,5 @@
+*.pyc
+*.meta
+*.data-00000-of-00001
+*.index
+*_depth_*.png

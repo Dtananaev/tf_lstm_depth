@@ -1,0 +1,2 @@
+model_checkpoint_path: "model.ckpt-lstm_depth"
+
