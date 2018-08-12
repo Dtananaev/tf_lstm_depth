@@ -24,7 +24,7 @@ To see overview  video of the work click on the picture below:
 ## Models
 We trained CNN and LSTM networks of the same architecture for single frame depth prediction. The architecture of the LSTM network are shown below.
 <p align="center">
-  <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/Architecture.jpg" width="1000"/>
+  <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/Architecture.jpg" />
 </p>
 ## Citation
 
