@@ -8,6 +8,7 @@ By [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lmb.info
 0. [Models](#models)
 0. [Results](#results)
 0. [Citation](#citation)
+
 [![Build Status](https://travis-ci.org/Dtananaev/localization.svg?branch=master)](https://travis-ci.org/Dtananaev/localization)
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/localization/blob/master/LICENSE.md) 
 
