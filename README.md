@@ -37,6 +37,16 @@ The code was checked on Ubuntu 16.04 LTS with CUDA 9.0, CuDNN 7.05.15 and tensor
  
  To make 3D reconstruction we used [structure from motion (SfM)](https://github.com/PrincetonVision/SUN3Dsfm) pipeline from [Sun3D dataset](http://sun3d.cs.princeton.edu/). In order to apply SfM set  extrinsics parameters for Kinect sensor (can be found in [NYUv2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) scripts) normalized with respect to the output resolution.
  
+## Results
+
+In the following table, we report the results that should be obtained after evaluation on the list of sequences with the 50 images length and also compare to other  methods on depth prediction from a single image. 
+- Error metrics on NYU Depth v2:
+
+| State of the art on NYU     |  rel  |  rms  | log10 |
+|-----------------------------|:-----:|:-----:|:-----:|
+| [Roy & Todorovic](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr16_NRF.pdf) (_CVPR 2016_) | 0.187 | 0.744 | 0.078 |
+| [Eigen & Fergus](http://cs.nyu.edu/~deigen/dnl/) (_ICCV 2015_)  | 0.158 | 0.641 |   -   |
+| **Ours**                        | **0.127** | **0.573** | **0.055** |
 ## Citation
 
 If you use this method in your research, please cite:
