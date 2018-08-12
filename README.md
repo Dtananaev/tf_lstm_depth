@@ -21,7 +21,11 @@ This repository contains the CNN and LSTM models trained for depth prediction fr
 To see overview  video of the work click on the picture below:
  [![introvideo](https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/sfm.jpg)](https://youtu.be/r6k4JaV41xg)
 
-
+## Models
+We trained CNN and LSTM networks of the same architecture for single frame depth prediction. The architecture of the LSTM network are shown below.
+<p align="center">
+  <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/Architecture.jpg" width="350"/>
+</p>
 ## Citation
 
 If you use this method in your research, please cite:
