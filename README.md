@@ -8,8 +8,8 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 
 ## Content
 1. [Introduction](#introduction)<br />
-2. [Guide](#quick-guide)<br />
-3. [Models](#models)<br />
+2. [Models](#models)<br />
+3. [Guide](#quick-guide)<br />
 4. [Results](#results)<br />
 5. [Citation](#citation)
 
