@@ -26,6 +26,17 @@ We trained CNN and LSTM networks of the same architecture for single frame depth
 <p align="center">
   <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/Architecture.jpg" />
 </p>
+
+You can download weights for tensorflow for CNN (132 mb) and for RNN (601 mb) trained on NYUv2 dataset.
+
+## Guide
+
+The code was checked on Ubuntu 16.04LTS wits cuda 9.0, CuDNN 7.05.15 and tensorflow 1.9 for python 2.7.
+ * In order to run LSTM network unpack the LSTM tensorflow weight to the LSTM_checkpoint folder and run LSTM_inference.py the result depths will be saved in example folder.
+ * In order to run CNN network unpack the CNN tensorflow weight to the CNN_checkpoint folder and run CNN_inference.py the result depths will be saved in example folder.
+ 
+ To make 3D reconstruction we used [structure from motion (SfM)](https://github.com/PrincetonVision/SUN3Dsfm) pipeline from [Sun3D dataset](http://sun3d.cs.princeton.edu/). In order to apply SfM set  extrinsics parameters for Kinect sensor (can be found in [NYUv2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) scripts) normalized with respect to the output resolution.
+ 
 ## Citation
 
 If you use this method in your research, please cite:
