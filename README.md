@@ -51,12 +51,12 @@ In the following table, we report the results that should be obtained after eval
 | Ours single-frame                        | 0.119 | 0.101 | 0.878 | 75.4% | 87.7% | 91.2%|
 | **Ours LSTM**                       | **0.111** | **0.092** | 0.824 |**79.6%** | **88.9%** | 91.4%|
 
-The resulted point clouds for sequences of 25 images.
+- The point clouds for sequences of 25 images.
 <p align="center">
   <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/3D.jpg" />
 </p>
 
-The comparison of the depth maps.
+- The comparison of the depth maps.
 <p align="center">
   <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/depthresult.jpg" />
 </p>
