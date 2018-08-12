@@ -7,11 +7,11 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/localization/blob/master/LICENSE.md) 
 
 ## Content
-[[Introduction](#introduction)]<br />
-[[Guide](#quick-guide)]<br />
-[[Models](#models)]<br />
-[[Results](#results)]<br />
-[[Citation](#citation)]
+1. [Introduction](#introduction)<br />
+2. [Guide](#quick-guide)<br />
+3. [Models](#models)<br />
+4. [Results](#results)<br />
+5. [Citation](#citation)
 
 
 ## Introduction
