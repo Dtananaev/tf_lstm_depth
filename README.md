@@ -39,7 +39,7 @@ The code was checked on Ubuntu 16.04 LTS with CUDA 9.0, CuDNN 7.05.15 and tensor
  
 ## Results
 
-In the following table, we report the results that should be obtained after evaluation on the uniformly sampled from NYUv2 test set [list](https://github.com/Dtananaev/localization/blob/master/pictures/list.txt) of sequences with the 50 images length and also compare to other  methods on depth prediction from a single image. 
+In the following table, we report the results that should be obtained after evaluation on the uniformly sampled from NYUv2 test set [list](https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/list.txt) of sequences with the first 50 images from each sequence and also compare to other  methods on depth prediction from a single image. 
 - Error metrics on NYU Depth v2:
 
 | State of the art on NYU     |  L1-inv  |  log10  | RMS | delta<1.25 | delta<1.25^2 | delta<1.25^3| 
