@@ -42,11 +42,15 @@ The code was checked on Ubuntu 16.04 LTS with CUDA 9.0, CuDNN 7.05.15 and tensor
 In the following table, we report the results that should be obtained after evaluation on the list of sequences with the 50 images length and also compare to other  methods on depth prediction from a single image. 
 - Error metrics on NYU Depth v2:
 
-| State of the art on NYU     |  L1-inv  |  log10  | RMS | \delta<1.25 | \delta<1.25^2 | \delta<1.25^3| 
+| State of the art on NYU     |  L1-inv  |  log10  | RMS | delta<1.25 | delta<1.25^2 | delta<1.25^3| 
 |-----------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| [Liu](https://arxiv.org/pdf/1511.06070.pdf) | 0.133 | 0.995| 56.1 % | 81.1% | 88.7%|
-| [Eigen & Fergus](http://cs.nyu.edu/~deigen/dnl/)  | 0.130 | 0.108 |  0.885 | 69.0 | 86.9 | 91.6|
-| Ours single-frame                        | 0.119 | 0.101 | 0.878 | 75.4% | 87.7% | 91.2|
+| [Liu](https://arxiv.org/pdf/1511.06070.pdf)       |0.155 | 0.133 | 0.995| 56.1 % | 81.1% | 88.7%|
+| [Eigen & Fergus](http://cs.nyu.edu/~deigen/dnl/)  | 0.130 | 0.108 |  0.885 | 69.0% | 86.9% | 91.6%|
+| [Chakrabarti](https://projects.ayanc.org/mdepth/) | 0.116 | 0.095 | **0.808**| 77.1% |88.3% | 91.2% | 
+| [Laina](https://arxiv.org/pdf/1606.00373.pdf) | 0.114 | 0.093 | 0.823| 77.9% |88.4% | **91.7%** | 
+| Ours single-frame                        | 0.119 | 0.101 | 0.878 | 75.4% | 87.7% | 91.2%|
+| **Ours LSTM **                       | **0.111** | **0.092** | 0.824 |**79.6%** | **88.9%** | 91.4%|
+
 
 ## Citation
 
