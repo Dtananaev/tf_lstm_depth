@@ -24,7 +24,7 @@ This repository contains the CNN and LSTM models trained for depth prediction fr
 
 If you use this method in your research, please cite:
 
-    @inproceedings{Tananaev2018temporal,
+    @inproceedings{Tananaev2018tempo,
             title={Temporally consistent depth estimation in videos with recurrent architectures},
             author={Denis Tananaev, Huizhong Zhou, Benjamin Ummenhofer,Thomas Brox},
             booktitle={3D Reconstruction meets Semantics, ECCV 2018 Workshop},
