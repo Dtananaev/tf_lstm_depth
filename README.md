@@ -8,9 +8,13 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 
 ## Contents
 [Introduction](#introduction)
+
 [Quick Guide](#quick-guide)
+
 [Models](#models)
+
 [Results](#results)
+
 [Citation](#citation)
 
 
