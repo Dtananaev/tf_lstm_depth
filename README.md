@@ -42,11 +42,12 @@ The code was checked on Ubuntu 16.04 LTS with CUDA 9.0, CuDNN 7.05.15 and tensor
 In the following table, we report the results that should be obtained after evaluation on the list of sequences with the 50 images length and also compare to other  methods on depth prediction from a single image. 
 - Error metrics on NYU Depth v2:
 
-| State of the art on NYU     |  rel  |  rms  | log10 |
-|-----------------------------|:-----:|:-----:|:-----:|
-| [Roy & Todorovic](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr16_NRF.pdf) (_CVPR 2016_) | 0.187 | 0.744 | 0.078 |
-| [Eigen & Fergus](http://cs.nyu.edu/~deigen/dnl/) (_ICCV 2015_)  | 0.158 | 0.641 |   -   |
-| **Ours**                        | **0.127** | **0.573** | **0.055** |
+| State of the art on NYU     |  L1-inv  |  log10  | RMS | \delta<1.25 | \delta<1.25^2 | \delta<1.25^3| 
+|-----------------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| [Liu](https://arxiv.org/pdf/1511.06070.pdf) | 0.133 | 0.995| 56.1 % | 81.1% | 88.7%|
+| [Eigen & Fergus](http://cs.nyu.edu/~deigen/dnl/)  | 0.130 | 0.108 |  0.885 | 69.0 | 86.9 | 91.6|
+| Ours single-frame                        | 0.119 | 0.101 | 0.878 | 75.4% | 87.7% | 91.2|
+
 ## Citation
 
 If you use this method in your research, please cite:
