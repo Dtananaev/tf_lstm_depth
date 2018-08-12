@@ -14,4 +14,8 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 0. [Citation](#citation)
 
 
+## Introduction
+
+This repository contains the CNN and LSTM models trained for depth prediction from a single RGB image, as described in the paper "[Temporally Consistent Depth Estimation in Videos with Recurrent Architectures]()". The provided models are those that were used to obtain the results reported in the paper on the benchmark datasets NYU Depth v2. 
+
 
