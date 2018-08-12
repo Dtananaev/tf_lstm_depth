@@ -49,7 +49,7 @@ In the following table, we report the results that should be obtained after eval
 | [Chakrabarti](https://projects.ayanc.org/mdepth/) | 0.116 | 0.095 | **0.808**| 77.1% |88.3% | 91.2% | 
 | [Laina](https://arxiv.org/pdf/1606.00373.pdf) | 0.114 | 0.093 | 0.823| 77.9% |88.4% | **91.7%** | 
 | Ours single-frame                        | 0.119 | 0.101 | 0.878 | 75.4% | 87.7% | 91.2%|
-| **Ours LSTM **                       | **0.111** | **0.092** | 0.824 |**79.6%** | **88.9%** | 91.4%|
+| **Ours LSTM**                       | **0.111** | **0.092** | 0.824 |**79.6%** | **88.9%** | 91.4%|
 
 
 ## Citation
