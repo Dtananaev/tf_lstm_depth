@@ -7,14 +7,10 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/localization/blob/master/LICENSE.md) 
 
 ## Contents
-[Introduction](#introduction)
-
-[Quick Guide](#quick-guide)
-
-[Models](#models)
-
-[Results](#results)
-
+[Introduction](#introduction)//
+[Quick Guide](#quick-guide)//
+[Models](#models)//
+[Results](#results)//
 [Citation](#citation)
 
 
