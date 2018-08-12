@@ -31,7 +31,7 @@ You can download weights for tensorflow for CNN (132 mb) and for RNN (601 mb) tr
 
 ## Guide
 
-The code was checked on Ubuntu 16.04LTS wits cuda 9.0, CuDNN 7.05.15 and tensorflow 1.9 for python 2.7.
+The code was checked on Ubuntu 16.04 LTS with CUDA 9.0, CuDNN 7.05.15 and tensorflow 1.9 for python 2.7.
  * In order to run LSTM network unpack the LSTM tensorflow weight to the LSTM_checkpoint folder and run LSTM_inference.py the result depths will be saved in example folder.
  * In order to run CNN network unpack the CNN tensorflow weight to the CNN_checkpoint folder and run CNN_inference.py the result depths will be saved in example folder.
  
