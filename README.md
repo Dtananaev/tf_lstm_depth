@@ -27,7 +27,7 @@ We trained CNN and LSTM networks of the same architecture for single frame depth
   <img src="https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/Architecture.jpg" />
 </p>
 
-You can download weights for tensorflow for [CNN](https://drive.google.com/open?id=1Ib_2Lspy_p_8zhbSauMeIyKbKSksqpGd) (132 mb) and for RNN (601 mb) trained on NYUv2 dataset.
+You can download weights for tensorflow for [CNN](https://drive.google.com/open?id=1Ib_2Lspy_p_8zhbSauMeIyKbKSksqpGd) (132 mb) and for [RNN](https://drive.google.com/open?id=1nEudmIIz7ulOlXDPhOLAhkNbJ7BdyaPU) (601 mb) trained on NYUv2 dataset.
 
 ## Guide
 
