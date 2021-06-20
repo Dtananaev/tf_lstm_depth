@@ -16,7 +16,7 @@ Authors: [Denis Tananaev](http://denis.tananaev.eu/), [Huizhong Zhou](https://lm
 
 ## Introduction
 
-This repository contains the CNN and LSTM models trained for depth prediction from a single RGB image, as described in the paper "[Temporally Consistent Depth Estimation in Videos with Recurrent Architectures]()". The provided models are those that were used to obtain the results reported in the paper on the benchmark dataset NYU Depth v2.
+This repository contains the CNN and LSTM models trained for depth prediction from a single RGB image, as described in the paper "[Temporally Consistent Depth Estimation in Videos with Recurrent Architectures](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Tananaev_Temporally_Consistent_Depth_Estimation_in_Videos_with_Recurrent_Architectures_ECCVW_2018_paper.pdf)". The provided models are those that were used to obtain the results reported in the paper on the benchmark dataset NYU Depth v2.
 
 To see overview  video of the work click on the picture below:
  [![introvideo](https://github.com/Dtananaev/tf_lstm_depth/blob/master/pictures/sfm.jpg)](https://youtu.be/r6k4JaV41xg)
